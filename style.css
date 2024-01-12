@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #2B3844;
+    padding: 23px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.relative {
+    position: relative;
+    margin-top: 48px;
+}
+
+input{
+    padding: 19px;
+    background-color: #2B3844;
+    color: white;
+    border: none;
+    width: 480px;
+}
+
+.relative img {
+    position: absolute;
+    top: 19px;
+    
+}
+
+input::placeholder{
+    color: white;
+}
+
+
+
+h1{
+    font-size: 2em;
+}
+
+.container {
+max-width: 1200px;
+color: white;
+margin: 0 auto;
+}
+
+body{
+    background-color: #202C36;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.All{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Flag p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: white;
+}
+
+.Flag h1{
+    color: white;
+    font-size:18px ;
+}
+
+.Flag{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #2B3844;
+    border: 1px solid #2B3844;
+    width: 300px;
+    height: 300px;
+}
+
+
+@media(max-width:375px) {
+    .container{
+        padding: 0 16px;
+    }
+
+    h1{
+        font-size: 14px;
+    }
+    span{
+        font-size: 12px;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    
+
+}
